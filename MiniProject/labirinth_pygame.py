@@ -75,7 +75,7 @@ def level_up(cnt):
             "W   W                        W         W",
             "W         WWWWWWWWWWWW  WWWW W         W",
             "W   WWWW  W     W    W  W              W",
-            "W   W        WWWW    W  W   WWWWW WW WWW",
+            "W   W        WWWW    W  W   WWWWW WWWWWW",
             "W WWW  WWWW          W  WWWWW     W  E W",
             "W   W     WWW        W      W     W    W",
             "W   W     W   W W    WWWWWWWW     W WW W",
@@ -107,7 +107,7 @@ def level_up(cnt):
             "W   WWW WWW   W W      W   W      W    W",
             "W     W   W   W WWWWWWWW   WWWWW WW    W",
             "W     W   W   W             W W        W",
-            "WWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWW WWWWW",
+            "WWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWW",
             "W         W                W           W",
             "W         W WWWWWWWWWWWWWW W           W" ,
             "W         W W            W W           W" ,
@@ -192,7 +192,7 @@ def draw_cube(end_rect):
         if player.rect.colliderect(end_rect):
             return True
 
-        image = pygame.image.load("/home/davit/Desktop/lab.png")
+        image = pygame.image.load("lab.png")
         screen.blit(image, (0, 0)) 
         
         for wall in walls:
