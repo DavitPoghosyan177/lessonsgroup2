@@ -1,0 +1,4 @@
+What is the capital of Russia:?Moscow
+What is the capital of Armenia:?Yerevan
+What is the capital of China:?Beijing
+
